@@ -5,6 +5,22 @@ description = "Parser for version 1 of Valve's KeyValues format"
 authors = ["Jonathan Ehwald <github@ehwald.info>"]
 license = "MIT"
 readme = "README.md"
+homepage = "https://github.com/DoctorJohn/keyvalues1"
+repository = "https://github.com/DoctorJohn/keyvalues1"
+documentation = "https://github.com/DoctorJohn/keyvalues1"
+classifiers = [
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
 
 [tool.poetry.dependencies]
 python = "^3.8"
