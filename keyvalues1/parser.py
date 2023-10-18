@@ -10,7 +10,9 @@ class KeyValues1:
     string: ESCAPED_STRING
 
     %import common.ESCAPED_STRING
+    %import common.CPP_COMMENT
     %import common.WS
+    %ignore CPP_COMMENT
     %ignore WS
     """
 
