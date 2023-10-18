@@ -1,0 +1,661 @@
+"526870"
+{
+	"common"
+	{
+		"name"		"Satisfactory"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"clienticon"		"b830a7fe1880ee85614322be91d9903078708945"
+		"clienttga"		"241bffea0b057c62689441b289bb6fd3a960823d"
+		"icon"		"ee3406fe5ec813b1987ad67e37e5cd6fb4f620e6"
+		"logo"		"e1ea012cc760443f3458c21549b254da1cc71f64"
+		"logo_small"		"e1ea012cc760443f3458c21549b254da1cc71f64_thumb"
+		"ReleaseState"		"released"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"test_timestamp"		"1644969600"
+			"tested_build_id"		"8118673"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"2"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"3"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+				}
+				"4"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsNotPerformant"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"1"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-7.0-1"
+				"requires_h264"		"0"
+			}
+		}
+		"metacritic_name"		"Satisfactory"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"UpperCenter"
+				"width_pct"		"80.39533886105062"
+				"height_pct"		"90.12111137497033"
+			}
+		}
+		"store_asset_mtime"		"1670315483"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Coffee Stain Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Coffee Stain Publishing"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Coffee Stain Publishing"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+			"2"		"28"
+			"3"		"2"
+			"4"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_9"		"1"
+			"category_38"		"1"
+			"category_1"		"1"
+			"category_27"		"1"
+			"category_23"		"1"
+			"category_45"		"1"
+			"category_46"		"1"
+			"category_42"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"arabic"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"czech"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"dutch"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"finnish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"greek"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"hungarian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"turkish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"ukrainian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"vietnamese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1591635600"
+		"community_hub_visible"		"1"
+		"gameid"		"526870"
+		"store_tags"
+		{
+			"0"		"7332"
+			"1"		"255534"
+			"2"		"1695"
+			"3"		"3859"
+			"4"		"1702"
+			"5"		"1685"
+			"6"		"8945"
+			"7"		"1643"
+			"8"		"3810"
+			"9"		"3834"
+			"10"		"21"
+			"11"		"1100689"
+			"12"		"493"
+			"13"		"599"
+			"14"		"1662"
+			"15"		"9"
+			"16"		"3839"
+			"17"		"3942"
+			"18"		"4182"
+			"19"		"492"
+		}
+		"review_score"		"9"
+		"review_percentage"		"97"
+	}
+	"extended"
+	{
+		"developer"		"Coffee Stain Studios"
+		"publisher"		"Coffee Stain Publishing"
+		"homepage"		"https://www.coffeestainstudios.com/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Satisfactory"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"FactoryGame.exe"
+				"arguments"		"-NO_EOS_OVERLAY"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"FactoryGame.sh"
+				"arguments"		"-NO_EOS_OVERLAY"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+		"uselaunchcommandline"		"1"
+		"steamcontrollertouchtemplateindex"		"1"
+		"steamcontrollertouchconfigdetails"
+		{
+			"2188499079"
+			{
+				"controller_type"		"controller_mobile_touch"
+				"enabled_branches"		"default"
+				"use_action_block"		"false"
+			}
+		}
+	}
+	"depots"
+	{
+		"workshopdepot"		"526870"
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"526871"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2447852005629156055"
+					"size"		"21404709222"
+					"download"		"7783019424"
+				}
+				"experimental"
+				{
+					"gid"		"829903933847638173"
+					"size"		"24309838461"
+					"download"		"8218225056"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"default-cheats"
+				{
+					"gid"		"41B4653AC2D148A057E6E80FF0025E70"
+					"size"		"96B0F7D46D718E829510AAABC656DBA1"
+					"download"		"6D590D84EBA0D732D8B3895EC53D949F"
+				}
+				"experimental-cheats"
+				{
+					"gid"		"59773749E3228CBBECAE1BF28F2D25CD"
+					"size"		"68134F3A2CFF45CC94B45E69A1B292BA"
+					"download"		"34024B61BA7163515091F27E70F0E5E7"
+				}
+				"internal"
+				{
+					"gid"		"FBA357312E0E8395AB957EA7D1FE53F6"
+					"size"		"C9BBF05B1068BD9E2586193A854E974D"
+					"download"		"F9CC7D8F7C212728A43EDCEFDA9F5737"
+				}
+				"internal2"
+				{
+					"gid"		"813B77335A5EA18B78657EE2F5D31BEC"
+					"size"		"79D46AB17E06F65D6A7DCA474B271BB6"
+					"download"		"D736BC48A849B3704DB1573E0BAA7087"
+				}
+				"internal3"
+				{
+					"gid"		"DD1FDF8679676A4B42CB9C6192207AA8"
+					"size"		"47331AB113C4FEBCE71E7EEEF854E65F"
+					"download"		"5B4766471FCE4CA5889CEAD348ACDB8C"
+				}
+				"internal4"
+				{
+					"gid"		"AEF52A0913CA7C37E2FDFF963D673E34"
+					"size"		"459CBA6693F925B00D8BF622922D4F93"
+					"download"		"1B48EEFFDF4994B8A8D63F3D6F12B4CB"
+				}
+				"internal5"
+				{
+					"gid"		"35BDBAC3631987DAD8F3A52479829C6E"
+					"size"		"F0F5A2A12ACB0459F96CDCFFF4C772B2"
+					"download"		"34AC79974264CC43A82A55197986016F"
+				}
+				"internal6"
+				{
+					"gid"		"1CEBEE5005C2E5A8B11D289A41E4C924"
+					"size"		"E52CDA18C8AB9D0CB34F4B4EA308E34B"
+					"download"		"D627A5065CCCEDAE1BBAA0B6E2506CEE"
+				}
+				"nightly"
+				{
+					"gid"		"4F105757C476B2CB90F3A6E31947912F"
+					"size"		"E93D89C2F220347882F40EFFF05C9539"
+					"download"		"35F53B3DAC662F790D1E1E7398323EF5"
+				}
+				"patching"
+				{
+					"gid"		"DDEFAF586E8AB961BAF603BA22B286B6"
+					"size"		"837550E808BAD27ACC135E531B700C91"
+					"download"		"56FB6F9CE17ECB40E13D6D12F7CBF12F"
+				}
+				"qa-cheats"
+				{
+					"gid"		"2AB32D50E77D0967C5ACDCB705DB4820"
+					"size"		"391751045885301FFE9850534B9FE586"
+					"download"		"09048831434B7EEA072ADB85232F1CAE"
+				}
+				"staging"
+				{
+					"gid"		"1D2C8CC42493B5180D43D681BC0BF04D"
+					"size"		"31F5CD9B5437260E8B16F10F363E8306"
+					"download"		"7B3112A66B02DDA0710A453602AC941E"
+				}
+			}
+		}
+		"526872"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5266178314303338517"
+					"size"		"18277118441"
+					"download"		"7282418496"
+				}
+				"experimental"
+				{
+					"gid"		"4632603328436311479"
+					"size"		"17299773113"
+					"download"		"6486842928"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"default-cheats"
+				{
+					"gid"		"7AFC5A3DF2A457BD0F79B9042842F9D4"
+					"size"		"FDA09D6B12EF25CA152E82A29941A136"
+					"download"		"BC957C62B33F359E5378CA3486F97B34"
+				}
+				"experimental-cheats"
+				{
+					"gid"		"019711F61D64ABFC3C54E20CA19D1F22"
+					"size"		"384219CAB6CDA0E2D8A6562C0CB9D2D0"
+					"download"		"66D06ED8DAFEAE08DFDC8672E4D5465F"
+				}
+				"internal"
+				{
+					"gid"		"6939E13A8CC2F8310EA7778951A63F8E"
+					"size"		"86F7AEEFB0ADDAC3D14EE352F6E296BD"
+					"download"		"FC087145CE946619CA39B447F413DB64"
+				}
+				"internal2"
+				{
+					"gid"		"7D43B86DFA377E061966FCDC6B86FA21"
+					"size"		"AC440330A2F10CEC479EBB79DE60D09F"
+					"download"		"B7DBAF3B42521AF9282284E9AF075DE8"
+				}
+				"internal3"
+				{
+					"gid"		"2E2B05A5DD30B8098218BEE015C75000"
+					"size"		"49FEE2B50C6493434983868EF6D69CF6"
+					"download"		"AFC6783AFCF056831EE061FDC726D874"
+				}
+				"internal4"
+				{
+					"gid"		"F1BCD2D6729EBBF566432592C4FFD544"
+					"size"		"F4489C40ADACE4B4D77C3B1863BD70CA"
+					"download"		"71250A07044EC884CAC207E3F6AADD4B"
+				}
+				"internal5"
+				{
+					"gid"		"E1E79250ED286583516B15EF90288BD8"
+					"size"		"DAD77CEA9836B89F0959CC0E726BA032"
+					"download"		"38EC4A1C169E33A1305397F1B7BC9D39"
+				}
+				"internal6"
+				{
+					"gid"		"64F9C24845888A255EE642A75A5F42B5"
+					"size"		"BD37ACE1C05028DA28E69AAC1A4D51E2"
+					"download"		"4C5A4E380880428C21451332A24C240E"
+				}
+				"nightly"
+				{
+					"gid"		"EA88C1FAC5D4E62E5A2244E2FF856F87"
+					"size"		"26A37C728B2850D8019ED01D48BCB8C6"
+					"download"		"27747CE877AE1DD657ABBD6AF477D932"
+				}
+				"patching"
+				{
+					"gid"		"3E41688896FF15A3550B3B432078BA1C"
+					"size"		"D4877DD017787EFF7E4B8E31337AC46D"
+					"download"		"57BCA2E11AD36EA53BD2B537A871E8FC"
+				}
+				"qa-cheats"
+				{
+					"gid"		"C3FD32205A0C1343707725D0FDE6F4B0"
+					"size"		"19B6C5C53AC0B2FE086B5918C289F6BF"
+					"download"		"DC763E545D6D32AE48E5C7BE39A55B16"
+				}
+				"staging"
+				{
+					"gid"		"1D261BCFF255D31CF08A16F5B1E83DA5"
+					"size"		"47D5E672A10A0D915E957D68A2EF7BE7"
+					"download"		"E4890EAA8A08768216EDB1F0F25534FD"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"10115589"
+				"timeupdated"		"1670854468"
+			}
+			"default-cheats"
+			{
+				"buildid"		"10593109"
+				"pwdrequired"		"1"
+				"timeupdated"		"1677071658"
+			}
+			"experimental"
+			{
+				"buildid"		"12462322"
+				"timeupdated"		"1697567029"
+			}
+			"experimental-cheats"
+			{
+				"buildid"		"10593109"
+				"pwdrequired"		"1"
+				"timeupdated"		"1677495080"
+			}
+			"internal"
+			{
+				"buildid"		"12216404"
+				"pwdrequired"		"1"
+				"timeupdated"		"1695046858"
+			}
+			"internal2"
+			{
+				"buildid"		"11914502"
+				"pwdrequired"		"1"
+				"timeupdated"		"1691693780"
+			}
+			"internal3"
+			{
+				"buildid"		"12374669"
+				"pwdrequired"		"1"
+				"timeupdated"		"1696596906"
+			}
+			"internal4"
+			{
+				"buildid"		"12257706"
+				"pwdrequired"		"1"
+				"timeupdated"		"1695392884"
+			}
+			"internal5"
+			{
+				"buildid"		"11509576"
+				"pwdrequired"		"1"
+				"timeupdated"		"1687294873"
+			}
+			"internal6"
+			{
+				"buildid"		"12465612"
+				"pwdrequired"		"1"
+				"timeupdated"		"1697576811"
+			}
+			"nightly"
+			{
+				"buildid"		"12466700"
+				"pwdrequired"		"1"
+				"timeupdated"		"1697587197"
+			}
+			"patching"
+			{
+				"buildid"		"11558409"
+				"pwdrequired"		"1"
+				"timeupdated"		"1687779541"
+			}
+			"qa-cheats"
+			{
+				"buildid"		"11678714"
+				"pwdrequired"		"1"
+				"timeupdated"		"1689114588"
+			}
+			"staging"
+			{
+				"buildid"		"12465066"
+				"pwdrequired"		"1"
+				"timeupdated"		"1697572420"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"FactoryGame/Saved/SaveGames/{64BitSteamID}"
+				"pattern"		"*.sav"
+			}
+		}
+	}
+	"localization"
+	{
+		"richpresence"
+		{
+			"english"
+			{
+				"tokens"
+				{
+					"#lurking_in_main_menu"		"Lurking in main menu"
+					"#building_a_base"		"Building a base"
+					"#exploring"		"Exploring"
+					"#initiating_new_session---"		"Initiating New Session..."
+					"#in_private_session"		"In Private Session"
+					"#mainmenu"		"Lurking in main menu"
+					"#initsession"		"Initiating New Session..."
+					"#inprivate"		"In Private Session"
+					"#basicexploration"		"Tier %Tier%: {#%DayTime%} exploration in %Location%."
+					"#highexploration"		"Tier %Tier%: High altitude {#%DayTime%_lower} exploration in %Location%."
+					"#basicdrivingexplore"		"Tier %Tier%: {#%DayTime%_short} drive in %Location%."
+					"#restwild"		"Tier %Tier%: Taking a rest in %Location%."
+					"#highaltitudedriving"		"Tier %Tier%: {#%DayTime%} high alititude stunt driving!"
+					"#basicbasebuild"		"Tier %Tier%: {#%DayTime%} base building in %Location%."
+					"#highbasebuild"		"Tier %Tier%: High altitude {#%DayTime%_lower} base building in %Location%."
+					"#basicdrivingbase"		"Tier %Tier%: {#%DayTime%_short} drive in %Location% base."
+					"#restbase"		"Tier %Tier%: Resting in %Location% base."
+					"#radiationplace"		"Tier %Tier%: Enjoying a healthy dose of radiation poisoning in %Location% base."
+					"#tutorialplace"		"Tier 0: {#%DayTime%} onboarding in %Location%."
+					"#introplace"		"Just landed on the alient planet. Estabilising base of operation in %Location%."
+					"#awesome"		"Awesome"
+					"#nighttime"		"Nighttime"
+					"#morningtime"		"Morning time"
+					"#daytime"		"Daytime"
+					"#eveningtime"		"Evening time"
+					"#awesome_short"		"Awesome"
+					"#nighttime_short"		"Nighttime"
+					"#morningtime_short"		"Morning"
+					"#daytime_short"		"Daytime"
+					"#eveningtime_short"		"Evening"
+					"#awesome_lower"		" "
+					"#nighttime_lower"		"nighttime"
+					"#morningtime_lower"		"morning time"
+					"#daytime_lower"		"daytime"
+					"#eveningtime_lower"		"evening time"
+				}
+			}
+		}
+	}
+}

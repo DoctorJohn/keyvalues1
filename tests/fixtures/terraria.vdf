@@ -1,0 +1,619 @@
+"105600"
+{
+	"common"
+	{
+		"name"		"Terraria"
+		"clienticon"		"a4ce7b163832f35ffcbf560ca40974bccd5d4cd5"
+		"clienttga"		"74b845ffb914030a7de4888215b3c13b4524fc37"
+		"icon"		"858961e95fbf869f136e1770d586e0caefd4cfac"
+		"logo"		"783399da7d865b7b5b1560891b1e9463345e8fa9"
+		"logo_small"		"783399da7d865b7b5b1560891b1e9463345e8fa9_thumb"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"osextended"		"macos64"
+		"type"		"game"
+		"steam_deck_compatibility"
+		{
+			"category"		"3"
+			"test_timestamp"		"1645747200"
+			"tested_build_id"		"8202013"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+				"4"
+				{
+					"display"		"1"
+					"token"		"#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"1"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"native"
+				"requires_h264"		"0"
+			}
+		}
+		"metacritic_name"		"Terraria"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"89.6242707117853"
+				"height_pct"		"92.82978427366197"
+			}
+		}
+		"store_asset_mtime"		"1666290502"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Re-Logic"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Re-Logic"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+			"3"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_9"		"1"
+			"category_29"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_36"		"1"
+			"category_38"		"1"
+			"category_49"		"1"
+			"category_43"		"1"
+			"category_41"		"1"
+			"category_42"		"1"
+			"category_45"		"1"
+			"category_46"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1305568320"
+		"metacritic_score"		"83"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/terraria?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"105600"
+		"store_tags"
+		{
+			"0"		"1100689"
+			"1"		"3810"
+			"2"		"1662"
+			"3"		"3871"
+			"4"		"3859"
+			"5"		"21"
+			"6"		"3964"
+			"7"		"1702"
+			"8"		"1643"
+			"9"		"3834"
+			"10"		"1685"
+			"11"		"1695"
+			"12"		"3843"
+			"13"		"492"
+			"14"		"19"
+			"15"		"122"
+			"16"		"4182"
+			"17"		"4711"
+			"18"		"1625"
+			"19"		"4166"
+		}
+		"review_score"		"9"
+		"review_percentage"		"97"
+	}
+	"extended"
+	{
+		"developer"		"Re-Logic"
+		"gamedir"		"Terraria"
+		"homepage"		"http://www.terraria.org/"
+		"icon"		""
+		"installscript"		"installscript.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"105601"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"publisher"		"Re-Logic"
+	}
+	"config"
+	{
+		"installscriptsignature"		"23f588aa4d2f85ba0f7e2f77126a8afd8b4bdea4c12dc38379f9bbda11d86326afddd7766da82d42a4b3da878f4bd1866099d72b2722d670052c994573294079301cc7ae24231677370401e14714791eb38cc3c685eb6a3fad2834e075dbc5138f0a63fa3e288b73dce60b595e966f55834fd5b501df95a24d740a1221c6f0e6"
+		"installscriptoverride"		"1"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Terraria.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Terraria.app/Contents/MacOS/Terraria"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Terraria"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+		"contenttype"		"3"
+		"installdir"		"Terraria"
+		"steamcontrollertemplateindex"		"1"
+		"steamcontrollertouchtemplateindex"		"1"
+		"steamcontrollertouchconfigdetails"
+		{
+			"1988837698"
+			{
+				"controller_type"		"controller_mobile_touch"
+				"enabled_branches"		"default"
+				"use_action_block"		"false"
+			}
+		}
+		"steamcontrollerconfigdetails"
+		{
+			"2761895335"
+			{
+				"controller_type"		"controller_neptune"
+				"enabled_branches"		"default,internal-beta,steamdeckreleasetest"
+				"use_action_block"		"false"
+			}
+		}
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_local_machine\\software\\re-logic\\terraria"
+			{
+				"string"
+				{
+					"install_path"		"%INSTALLDIR%"
+					"exe_path"		"%INSTALLDIR%\\Terraria.exe"
+				}
+				"dword"
+				{
+					"patchversion"		"0"
+				}
+			}
+		}
+		"run process"
+		{
+			"install"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\NET Framework Setup\\NDP\\v4\\Full"
+				"process 1"		"%INSTALLDIR%\\dotNetFx40_Full_setup.exe"
+				"command 1"		"/passive /norestart"
+				"nocleanup"		"1"
+			}
+			"installed"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Microsoft\\XNA\\Framework\\v4.0"
+				"process 1"		"%windir%\\system32\\msiexec.exe"
+				"command 1"		"/package \"%INSTALLDIR%\\xnafx40_redist.msi\" /passive"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"105601"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8046724853517638985"
+					"size"		"687925078"
+					"download"		"518166256"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"balance-beta"
+				{
+					"gid"		"BC4E1A0F2924B2C4D9919186EF9D869F"
+					"size"		"B71ADAD1DF66247F7A938AEDAD249FAD"
+					"download"		"41A4B69DDC88E320A271AB74EF923ECC"
+				}
+				"beta-2"
+				{
+					"gid"		"6A8CC661D03CB822B0C96B32E7D84161"
+					"size"		"39E8F7C7EF1398F8FEA1AEF8E969880B"
+					"download"		"18034215FD1AEC10919518E6EDADA627"
+				}
+				"fix-release"
+				{
+					"gid"		"62F74458F9DF95B8CC213471D7C5CE0C"
+					"size"		"818F303240CBFFBE1928B3E6F7C53C1C"
+					"download"		"9740DDB112BF6F6E980771A58F6FC047"
+				}
+				"internal-beta"
+				{
+					"gid"		"5AAE1BC7CB963F875D72D94AA781DB9D"
+					"size"		"51F94FAAE08A614BBB2BD57A20ED41F9"
+					"download"		"5BCCAEF2E1ACCC8C5B077C6DC09AF7A8"
+				}
+				"internal-beta-2"
+				{
+					"gid"		"A92E147B2D4FA37F2965EF36E701ED95"
+					"size"		"06F10C525BBE74220AB0BC3DD0C06CCE"
+					"download"		"8D7B2BC0EDBC8DB82EE44ADDEB6C1C3C"
+				}
+				"specificbugtesting"
+				{
+					"gid"		"8366555C5FC6CF58E41D55D40CE687E2"
+					"size"		"1B62066ABCE7BA3239AEE6A7FB8993CF"
+					"download"		"21AFA2D9C4D37D643CBD130787F9DAE5"
+				}
+				"steam-deck-beta"
+				{
+					"gid"		"A8DF23A0FEC872FF935EB8FAEBA70C3A"
+					"size"		"4C6C34A7D84BD1BD8D81BACD91155638"
+					"download"		"747CD2C42888A49A6AC501649EF85D0A"
+				}
+				"steamdeckreleasetest"
+				{
+					"gid"		"0EA61D5C0E0BEE6632E9C0BB02593F66"
+					"size"		"DF6478B38E23AE6AF6AD16ADF03C8CA1"
+					"download"		"BA3C6043F09946B5B59E5F076A25A5F7"
+				}
+				"temp-branch-2"
+				{
+					"gid"		"E3BE7B36DFE98824EF569CDDC212DCD0"
+					"size"		"50A0C41C1B80755AE4C5331C9BD63301"
+					"download"		"8FC76BDD24104826178660AE1BB96908"
+				}
+				"trendy"
+				{
+					"gid"		"BA20D707E3B9B04E41B992EF5F641301"
+					"size"		"C5EDEE4F484FDB7C6D21455105944845"
+					"download"		"9064232987F4D30B75ADF4011AEEFD54"
+				}
+			}
+		}
+		"105602"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6844625161744350207"
+					"size"		"715107635"
+					"download"		"515624672"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"balance-beta"
+				{
+					"gid"		"415958D76A97EC740D73CF416FB54C12"
+					"size"		"4166F0C1E1A58C34E7068907D8A181BE"
+					"download"		"CC7BAD244C166C78C7C501251F10EF8C"
+				}
+				"beta-2"
+				{
+					"gid"		"4AEC71C6345944003BD59FD4DB066192"
+					"size"		"300137364948B93386F517B9F6B685D3"
+					"download"		"BCA70FD7B67ACB8612F8065602EABD2D"
+				}
+				"fix-release"
+				{
+					"gid"		"D9451F3BB1C94728582F6DF6A44C6917"
+					"size"		"B4D13137C91E440631DA8DFBD111EC20"
+					"download"		"2BAB50C9218286D16309692132D14251"
+				}
+				"internal-beta"
+				{
+					"gid"		"DE521CE0FAFF43B2FD3F8BAFF14DC4E6"
+					"size"		"25B217284A209522A4F6247FBBDFDF9D"
+					"download"		"609959F22DC2FA801C10EC9F7BDFF875"
+				}
+				"internal-beta-2"
+				{
+					"gid"		"0852B20BAA93367F41F8D7CD8D18940C"
+					"size"		"F359EEFE0FDC3D13BCAE4C6BD3DF9491"
+					"download"		"9F7ED1B6C7EBB2261DAAB82B4CE4269B"
+				}
+				"specificbugtesting"
+				{
+					"gid"		"1DD5CAFB2DA56C5B21B7052EBF370F3C"
+					"size"		"21E880E14C3DA725AE792222C345F4BA"
+					"download"		"85F16107EB14F166D7D57B58F3427443"
+				}
+				"steam-deck-beta"
+				{
+					"gid"		"990753D2D10DFF0EF529A607BFEFCDBA"
+					"size"		"F4FA727F9307824C1ECF97FD04E9214F"
+					"download"		"0FE390971E8BCB579ECD24E92A4998E3"
+				}
+				"steamdeckreleasetest"
+				{
+					"gid"		"2191CAE6FB0E65DE6D9BFBC2EB83FC07"
+					"size"		"2AF17CB4C59500440C183C2F5236EDA3"
+					"download"		"28CBCC3E2A66230FA3C805684B022C0C"
+				}
+				"temp-branch-2"
+				{
+					"gid"		"19CDC41D4E8E59028E2B6C34F42588CE"
+					"size"		"3555513C7A9F0AAA286ADAFFF7E8E2EE"
+					"download"		"62A0352E639E63D194FD368B1C8139D5"
+				}
+				"trendy"
+				{
+					"gid"		"AF6FBC844A27D3F34A2E333EC8232286"
+					"size"		"D64882E3A4A7DFEF751BDFE12D7D3139"
+					"download"		"3595346000481B6EE5F0E8F80BE40B83"
+				}
+			}
+		}
+		"105603"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5312595479056093124"
+					"size"		"730332452"
+					"download"		"519095600"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"balance-beta"
+				{
+					"gid"		"617034291FD4D69E3CE5CE95565DEDCB"
+					"size"		"145B7C85FAC5F2E0A92F56265A5A392E"
+					"download"		"A7A77C8A8E07B0D39C7B0451F16BEAF9"
+				}
+				"beta-2"
+				{
+					"gid"		"30F24D2B902C754F8C1A853C7C43A1A6"
+					"size"		"B07745AC2431AC74E90E6869322C87AF"
+					"download"		"E46128442537625274EF9A95F7FABF15"
+				}
+				"fix-release"
+				{
+					"gid"		"C3566211012172BAA715C09E3593DC80"
+					"size"		"0033CDA4B91789367172356194B766A0"
+					"download"		"52C6D33ECEF082EB980B9FC7655444E9"
+				}
+				"internal-beta"
+				{
+					"gid"		"B7E1763A5C05782B5B3F5821A1F93AD9"
+					"size"		"E057E211861DDF560DACDD72E193406E"
+					"download"		"5D6CC88E51A5E8C04D2B3321907E18D8"
+				}
+				"internal-beta-2"
+				{
+					"gid"		"B9DAF71F36CEFC508D8E8CD73569BB02"
+					"size"		"271BAD695BF550E1274503398A32E368"
+					"download"		"A6A878760974DE8215658EDE3A940481"
+				}
+				"specificbugtesting"
+				{
+					"gid"		"1C5D6D543226EEDC370046553FEC2B3F"
+					"size"		"1979E22B82A8CCC4F2BE67FA33256134"
+					"download"		"718C9B2E83335E245CAB63ACBB6D7591"
+				}
+				"steam-deck-beta"
+				{
+					"gid"		"AB7569BD1755155CA63586F46D615581"
+					"size"		"5B2190EB340AB8A949E638C4EEE5156A"
+					"download"		"7A3E98C02CA681248CC9BFB67F61D07E"
+				}
+				"steamdeckreleasetest"
+				{
+					"gid"		"10F68DD4E24C1F8770FFFA9AC5B0B88B"
+					"size"		"A3C27168ECFC49F352D414F25111C9EE"
+					"download"		"0BD2442636590A7A4901AEB6E656B30F"
+				}
+				"temp-branch-2"
+				{
+					"gid"		"FF3A814C4817D3A2AEE0CE482FD79901"
+					"size"		"3A3BEE6C808E7F91C8575300B996C201"
+					"download"		"F070AA7E146402ADA30910B0C3295837"
+				}
+				"trendy"
+				{
+					"gid"		"99F8A51C0B2C7A141A7769B6AADB46DA"
+					"size"		"AEB1F36686A93BF1B7331E45318130E9"
+					"download"		"D997118A589BAC17DFB972A93DA9F4D0"
+				}
+			}
+		}
+		"hasdepotsindlc"		"1"
+		"workshopdepot"		"105600"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"9965506"
+				"timeupdated"		"1668752523"
+			}
+			"balance-beta"
+			{
+				"buildid"		"9965506"
+				"pwdrequired"		"1"
+				"timeupdated"		"1668752537"
+			}
+			"beta-2"
+			{
+				"buildid"		"1342302"
+				"pwdrequired"		"1"
+				"timeupdated"		"1476800694"
+			}
+			"fix-release"
+			{
+				"buildid"		"9646252"
+				"pwdrequired"		"1"
+				"timeupdated"		"1664837429"
+			}
+			"internal-beta"
+			{
+				"buildid"		"12197078"
+				"pwdrequired"		"1"
+				"timeupdated"		"1694769679"
+			}
+			"internal-beta-2"
+			{
+				"buildid"		"2704580"
+				"pwdrequired"		"1"
+				"timeupdated"		"1528747149"
+			}
+			"specificbugtesting"
+			{
+				"buildid"		"9594011"
+				"pwdrequired"		"1"
+				"timeupdated"		"1664217377"
+			}
+			"steam-deck-beta"
+			{
+				"buildid"		"8202013"
+				"pwdrequired"		"1"
+				"timeupdated"		"1644869757"
+			}
+			"steamdeckreleasetest"
+			{
+				"buildid"		"8290638"
+				"pwdrequired"		"1"
+				"timeupdated"		"1646100149"
+			}
+			"temp-branch-2"
+			{
+				"buildid"		"1783167"
+				"pwdrequired"		"1"
+				"timeupdated"		"1501783938"
+			}
+			"trendy"
+			{
+				"buildid"		"1458175"
+				"pwdrequired"		"1"
+				"timeupdated"		"1479155818"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"10000"
+	}
+}
