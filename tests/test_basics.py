@@ -83,3 +83,17 @@ def test_pair_with_mixed_dict():
     """
 
     assert KeyValues1.parse(text) == {"key1": {"key2": "value2", "key3": {}}}
+
+
+def test_ignore_comments():
+    text = """
+    // First comment
+    "key1"
+    {
+        // Second comment
+        "key2" "value2"
+        "key3" {} // Third comment
+    }
+    """
+
+    assert KeyValues1.parse(text) == {"key1": {"key2": "value2", "key3": {}}}
