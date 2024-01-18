@@ -2,24 +2,18 @@ from typing import List
 
 from lark import Token, Transformer
 
-from keyvalues1.types import KVPair, RuleDict, RulePair, RuleString, RuleValue
+from keyvalues1.types import KV1Dict, KV1Pair, KV1String, KV1Value
 
 
-class TreeToJson(Transformer[Token, KVPair]):
-    def pair(self, items: RulePair):
-        key, value = items
-        return key, value
+class TreeToJson(Transformer[Token, KV1Pair]):
+    def pair(self, items: KV1Pair) -> KV1Pair:
+        return items
 
-    def value(self, items: List[RuleValue]):
-        item = items[0]
+    def value(self, items: List[KV1Value]) -> KV1Value:
+        return items[0]
 
-        if isinstance(item, list):
-            return dict(item)
-
-        return item
-
-    def dict(self, items: RuleDict):
+    def dict(self, items: List[KV1Pair]) -> KV1Dict:
         return dict(items)
 
-    def string(self, items: List[RuleString]):
+    def string(self, items: List[str]) -> KV1String:
         return items[0].strip('"')

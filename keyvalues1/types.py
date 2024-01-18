@@ -1,13 +1,8 @@
-from typing import Dict, List, Tuple, Union
+from typing import Dict, Tuple, Union
 
 from typing_extensions import TypeAlias
 
-RulePair: TypeAlias = Tuple["RuleString", "RuleValue"]
-RuleValue: TypeAlias = Union["RuleString", "RuleDict"]
-RuleDict: TypeAlias = List[RulePair]
-RuleString: TypeAlias = str
-
-KVPair: TypeAlias = Tuple["KVString", "KVValue"]
-KVValue: TypeAlias = Union["KVString", "KVDict"]
-KVDict: TypeAlias = Dict["KVString", "KVValue"]
-KVString: TypeAlias = str
+KV1Pair: TypeAlias = Tuple["KV1String", "KV1Value"]
+KV1Value: TypeAlias = Union["KV1String", "KV1Dict"]
+KV1Dict: TypeAlias = Dict["KV1String", "KV1Value"]
+KV1String: TypeAlias = str
