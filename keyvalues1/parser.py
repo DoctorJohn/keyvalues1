@@ -1,6 +1,7 @@
 from lark import Lark
 
 from keyvalues1.transformers import TreeToJson
+from keyvalues1.types import KV1Dict
 
 
 class KeyValues1:
@@ -22,6 +23,7 @@ class KeyValues1:
     transformer = TreeToJson()
 
     @classmethod
-    def parse(cls, raw_steam_app_info: str) -> dict:
+    def parse(cls, raw_steam_app_info: str) -> KV1Dict:
         tree = cls.parser.parse(raw_steam_app_info)
-        return dict([cls.transformer.transform(tree)])
+        pair = cls.transformer.transform(tree)
+        return dict([pair])
