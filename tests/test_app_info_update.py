@@ -1,5 +1,6 @@
-from keyvalues1 import KeyValues1
 from pathlib import Path
+
+from keyvalues1 import KeyValues1
 
 fixtures = Path("tests/fixtures")
 
