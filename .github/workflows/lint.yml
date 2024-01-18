@@ -33,5 +33,5 @@ jobs:
         run: poetry install --no-interaction
       - name: Lint
         run: |
-          poetry run ruff keyvalues1 tests
-          poetry run black keyvalues1 tests --check
+          poetry run ruff check keyvalues1 tests
+          poetry run ruff format --check keyvalues1 tests
