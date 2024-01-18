@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "keyvalues1"
-version = "1.0.0"
+version = "1.1.0"
 description = "Parser for version 1 of Valve's KeyValues format"
 authors = ["Jonathan Ehwald <github@ehwald.info>"]
 license = "MIT"
