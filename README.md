@@ -11,7 +11,7 @@
 [codecov-image]: https://codecov.io/gh/DoctorJohn/keyvalues1/branch/main/graph/badge.svg
 [codecov-url]: https://codecov.io/gh/DoctorJohn/keyvalues1
 [license-image]: https://img.shields.io/pypi/l/keyvalues1
-[license-url]: https://github.com/DoctorJohn/keyvalues1/blob/master/LICENSE
+[license-url]: https://github.com/DoctorJohn/keyvalues1/blob/main/LICENSE
 
 Parser for [version 1 of Valve's KeyValues format](https://developer.valvesoftware.com/wiki/KeyValues).
 
