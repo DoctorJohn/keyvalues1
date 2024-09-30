@@ -9,3 +9,6 @@ dist
 # Editors
 .idea/
 .vscode/
+
+# Coverage
+.coverage
