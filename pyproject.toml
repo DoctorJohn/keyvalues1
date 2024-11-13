@@ -33,12 +33,16 @@ pytest-cov = "^6.0.0"
 pytest-randomly = "^3.15.0"
 ruff = "^0.7.2"
 pre-commit = "^4.0.1"
+mypy = "^1.13.0"
 
 [tool.ruff.lint]
 extend-select = ["I"]
 
 [tool.pytest.ini_options]
 addopts = "--cov=keyvalues1 --cov-report term-missing"
+
+[tool.mypy]
+check_untyped_defs = true
 
 [build-system]
 requires = ["poetry-core"]
