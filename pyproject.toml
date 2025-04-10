@@ -1,13 +1,17 @@
-[tool.poetry]
+[project]
 name = "keyvalues1"
 version = "2.0.0"
 description = "Parser for version 1 of Valve's KeyValues format"
-authors = ["Jonathan Ehwald <github@ehwald.info>"]
-license = "MIT"
+authors = [
+    {name = "Jonathan Ehwald", email = "github@ehwald.info"}
+]
+license = {text = "MIT"}
 readme = "README.md"
-homepage = "https://github.com/DoctorJohn/keyvalues1"
-repository = "https://github.com/DoctorJohn/keyvalues1"
-documentation = "https://github.com/DoctorJohn/keyvalues1"
+requires-python = ">=3.9,<4.0"
+dependencies = [
+    "lark (>=1.1.7,<2.0.0)",
+    "typing-extensions (>=4.9.0,<5.0.0)"
+]
 classifiers = [
     "Intended Audience :: Developers",
     "License :: OSI Approved :: MIT License",
@@ -22,10 +26,14 @@ classifiers = [
     "Programming Language :: Python :: 3.13",
 ]
 
-[tool.poetry.dependencies]
-python = "^3.9"
-lark = "^1.1.7"
-typing-extensions = "^4.9.0"
+[project.urls]
+homepage = "https://github.com/DoctorJohn/keyvalues1"
+repository = "https://github.com/DoctorJohn/keyvalues1"
+documentation = "https://github.com/DoctorJohn/keyvalues1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.2.2"
@@ -43,7 +51,3 @@ addopts = "--cov=keyvalues1 --cov-report term-missing"
 
 [tool.mypy]
 check_untyped_defs = true
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
