@@ -2,16 +2,11 @@
 name = "keyvalues1"
 version = "2.0.0"
 description = "Parser for version 1 of Valve's KeyValues format"
-authors = [
-    {name = "Jonathan Ehwald", email = "github@ehwald.info"}
-]
-license = {text = "MIT"}
+authors = [{ name = "Jonathan Ehwald", email = "github@ehwald.info" }]
+license = { text = "MIT" }
 readme = "README.md"
 requires-python = ">=3.9,<4.0"
-dependencies = [
-    "lark (>=1.1.7,<2.0.0)",
-    "typing-extensions (>=4.9.0,<5.0.0)"
-]
+dependencies = ["lark (>=1.1.7,<2.0.0)", "typing-extensions (>=4.9.0,<5.0.0)"]
 classifiers = [
     "Intended Audience :: Developers",
     "License :: OSI Approved :: MIT License",
@@ -32,16 +27,18 @@ repository = "https://github.com/DoctorJohn/keyvalues1"
 documentation = "https://github.com/DoctorJohn/keyvalues1"
 
 [build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
 
-[tool.poetry.group.dev.dependencies]
-pytest = "^8.2.2"
-pytest-cov = "^6.0.0"
-pytest-randomly = "^3.15.0"
-ruff = "^0.11.4"
-pre-commit = "^4.0.1"
-mypy = "^1.13.0"
+[dependency-groups]
+dev = [
+    "mypy>=1.15.0",
+    "pre-commit>=4.2.0",
+    "pytest>=8.3.5",
+    "pytest-cov>=6.1.1",
+    "pytest-randomly>=3.16.0",
+    "ruff>=0.11.5",
+]
 
 [tool.ruff.lint]
 extend-select = ["I"]
