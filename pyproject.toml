@@ -44,7 +44,7 @@ dev = [
 extend-select = ["I"]
 
 [tool.pytest.ini_options]
-addopts = "--cov=keyvalues1 --cov-report term-missing"
+addopts = "--cov=keyvalues1 --cov-report term-missing --cov-report html"
 
 [tool.mypy]
 check_untyped_defs = true
