@@ -1,6 +1,6 @@
 [project]
 name = "keyvalues1"
-version = "2.0.0"
+version = "2.1.0"
 description = "Parser for version 1 of Valve's KeyValues format"
 authors = [{ name = "Jonathan Ehwald", email = "github@ehwald.info" }]
 license = { text = "MIT" }
