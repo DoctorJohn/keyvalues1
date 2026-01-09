@@ -45,7 +45,7 @@ dev = [
 ]
 
 [tool.ruff.lint]
-extend-select = ["I"]
+extend-select = ["I", "UP"]
 
 [tool.pytest.ini_options]
 addopts = "--cov=keyvalues1 --cov-report term-missing --cov-report html"
