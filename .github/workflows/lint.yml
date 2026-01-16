@@ -27,4 +27,4 @@ jobs:
         run: |
           uv run ruff check keyvalues1 tests
           uv run ruff format --check keyvalues1 tests
-          uv run mypy keyvalues1
+          uv run mypy keyvalues1 tests
