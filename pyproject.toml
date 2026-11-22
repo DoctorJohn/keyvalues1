@@ -39,6 +39,9 @@ dev = [
     "pytest-randomly>=3.16.0",
     "ruff>=0.11.5",
 ]
+publish = [
+    "pypi-attestations==0.0.31",
+]
 
 [build-system]
 requires = ["uv_build>=0.13.4,<0.14.0"]
