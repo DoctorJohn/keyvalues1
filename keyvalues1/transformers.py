@@ -14,4 +14,4 @@ class TreeToJson(Transformer[Token, KV1Pair]):
         return dict(items)
 
     def string(self, items: list[str]) -> KV1String:
-        return items[0].strip('"')
+        return items[0][1:-1]

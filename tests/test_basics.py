@@ -17,6 +17,30 @@ def test_pair_with_empty_string():
     assert KeyValues1.parse(text) == {"key1": ""}
 
 
+def test_pair_with_escaped_quote_at_end_of_string():
+    text = r"""
+    "key1" "value \"quoted\""
+    """
+
+    assert KeyValues1.parse(text) == {"key1": r"value \"quoted\""}
+
+
+def test_pair_with_only_escaped_quote_in_string():
+    text = r"""
+    "key1" "\""
+    """
+
+    assert KeyValues1.parse(text) == {"key1": r"\""}
+
+
+def test_pair_with_escaped_quotes_around_key():
+    text = r"""
+    "\"key1\"" "value1"
+    """
+
+    assert KeyValues1.parse(text) == {r"\"key1\"": "value1"}
+
+
 def test_pair_with_empty_dict():
     text = """
     "key1"
