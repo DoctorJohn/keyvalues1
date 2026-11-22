@@ -18,7 +18,7 @@ class KeyValues1:
     %ignore WS
     """
 
-    parser = Lark(grammar, start="pair")
+    parser = Lark(grammar, start="pair", parser="lalr")
 
     transformer = TreeToJson()
 
