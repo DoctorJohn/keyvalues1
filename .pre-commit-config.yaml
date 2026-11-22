@@ -1,11 +1,21 @@
 repos:
-  - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.17.6
+  - repo: local
     hooks:
       - id: ruff-check
+        name: ruff check
+        entry: uv run --locked ruff check --force-exclude
+        language: system
+        types_or: [python, pyi, jupyter]
+        require_serial: true
       - id: ruff-format
-        args: [--check]
-  - repo: https://github.com/pre-commit/mirrors-mypy
-    rev: v2.4.1
-    hooks:
+        name: ruff format
+        entry: uv run --locked ruff format --check --force-exclude
+        language: system
+        types_or: [python, pyi, jupyter, markdown]
+        require_serial: true
       - id: mypy
+        name: mypy
+        entry: uv run --locked mypy keyvalues1 tests
+        language: system
+        pass_filenames: false
+        always_run: true
